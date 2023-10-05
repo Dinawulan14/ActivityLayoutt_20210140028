@@ -63,7 +63,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="128dp"
         android:text="@string/btnSub"
-        android:backgroundTint="@color/purple_700"
+        android:backgroundTint="@color/purple_200"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.542"
