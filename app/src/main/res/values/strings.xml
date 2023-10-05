@@ -4,4 +4,9 @@
     <string name="btnSubmit">Submit</string>
     <string name="Tittle">Assallamuallaikum</string>
     <string name="btnSub">LEARN MORE</string>
+    <string name="btnSubm">PASHMINA</string>
+    <string name="Na">masukkan nama</string>
+    <string name="Nm">masukkan nim</string>
+    <string name="Nma">Nama : </string>
+    <string name="NAma">Prodi : </string>
 </resources>

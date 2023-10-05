@@ -1,29 +1,93 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="16dp">
+    tools:context=".LinearActivity">
 
-<EditText
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        app:srcCompat="@drawable/hijab"/>
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Masukkan Nama " />
+        android:orientation="horizontal"
+        android:gravity="center">
 
-    <EditText
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSubm"
+            android:backgroundTint="@color/teal_200"
+            android:layout_margin="30dp"
+            android:layout_weight="3"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="3"
+            android:text="Segiempat"
+            android:backgroundTint="@color/black"/>
+    </LinearLayout>
+
+
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Masukkan Nim" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Masukkan Kelas" />
-
+        android:text="Lihat Troli"
+        android:backgroundTint="@color/purple_700"
+        android:layout_margin="10dp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Kirim" />
+        android:layout_margin="20dp"
+        android:layout_gravity="right"
+        android:text="Old"
+        android:backgroundTint="@color/teal_700"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="left"
+        android:text="New"
+        android:backgroundTint="@color/teal_700"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:layout_gravity="left"
+        app:srcCompat="@drawable/ic_baseline_keyboard_arrow_left_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pilih kesukaanmu"
+            android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_gravity="right"
+        app:srcCompat="@drawable/ic_baseline_chevron_right_24" />
+
+
+    </LinearLayout>
 </LinearLayout>
